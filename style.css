@@ -8,6 +8,7 @@
 
 :root {
   --white: #ffffff;
+  --green: #c4f82a;
   --dark-grey: #1f1f1f;
 }
 
@@ -69,6 +70,15 @@ body {
   font-size: 24px;
   font-weight: 600;
   color: var(--white);
+  line-height: 150%;
+}
+
+.social-links-profile__location {
+  align-self: stretch;
+
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--green);
   line-height: 150%;
 }
 
