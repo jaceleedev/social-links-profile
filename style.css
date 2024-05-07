@@ -45,6 +45,12 @@ body {
   background: var(--dark-grey);
 }
 
+.social-links-profile__image {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+}
+
 @media (min-width: 376px) {
   .social-links-profile {
     width: 384px;
