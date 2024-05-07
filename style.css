@@ -82,7 +82,19 @@ body {
   line-height: 150%;
 }
 
+.social-links-profile__bio {
+  align-self: stretch;
+  text-align: center;
+
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--white);
+  line-height: 150%;
+}
+
 .social-links-profile__list {
+  align-self: stretch;
+
   display: flex;
   flex-direction: column;
   gap: 16px;
