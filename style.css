@@ -82,6 +82,15 @@ body {
   line-height: 150%;
 }
 
+.social-links-profile__list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
+
+  list-style: none;
+}
+
 @media (min-width: 376px) {
   .social-links-profile {
     width: 384px;
