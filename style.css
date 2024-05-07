@@ -7,6 +7,7 @@
 }
 
 :root {
+  --white: #ffffff;
   --dark-grey: #1f1f1f;
 }
 
@@ -60,6 +61,15 @@ body {
   align-self: stretch;
   gap: 4px;
   text-align: center;
+}
+
+.social-links-profile__name {
+  align-self: stretch;
+
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--white);
+  line-height: 150%;
 }
 
 @media (min-width: 376px) {
