@@ -6,8 +6,21 @@
   font-style: normal;
 }
 
+:root {
+  --dark-grey: #1f1f1f;
+}
+
 html {
   box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
 }
 
 *,
@@ -16,4 +29,26 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
+}
+
+.social-links-profile {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+
+  width: 327px;
+  height: 579px;
+  padding: 24px;
+
+  border-radius: 12px;
+  background: var(--dark-grey);
+}
+
+@media (min-width: 376px) {
+  .social-links-profile {
+    width: 384px;
+    height: 611px;
+    padding: 40px;
+  }
 }
