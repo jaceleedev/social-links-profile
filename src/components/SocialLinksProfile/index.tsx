@@ -19,7 +19,7 @@ function SocialLinksProfile({
   links,
 }: SocialLinksProfileProps) {
   return (
-    <article className="flex flex-col items-center gap-300 w-[384px] p-500 rounded-xl bg-grey-800">
+    <article className="flex flex-col items-center gap-300 max-w-[384px] flex-1 p-500 rounded-xl bg-grey-800 tablet:max-w-[456px]">
       <Image
         src={imageUrl}
         alt={`Profile picture of ${name}`}

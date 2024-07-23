@@ -68,7 +68,6 @@ const config: Config = {
           alignItems: 'center',
           color: '#ffffff',
           width: '100%',
-          maxWidth: '304px',
           padding: '12px',
           borderRadius: '8px',
           backgroundColor: '#333333',

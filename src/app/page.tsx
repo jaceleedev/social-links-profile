@@ -10,7 +10,7 @@ const linksData = [
 
 export default function Home() {
   return (
-    <main>
+    <main className="flex justify-center items-center w-screen h-screen bg-grey-900 tablet:p-500">
       <SocialLinksProfile
         imageUrl="/images/avatar-jessica.jpeg"
         name="Jessica Randall"
